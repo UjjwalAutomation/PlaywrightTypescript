@@ -35,3 +35,9 @@ for(let i in mixedData){
 for(let value of mixedData){
     console.log(value);
 }
+
+// Iterating using => function
+
+mixedData.forEach((element,index)=>{
+    console.log(`${index} , ${element}`);
+})
